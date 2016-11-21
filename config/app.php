@@ -167,7 +167,8 @@ return [
          * Package Service Providers...
          */
 
-        //
+        Didbot\DidbotApi\ApiServiceProvider::class,
+        Laracasts\Utilities\JavaScript\JavaScriptServiceProvider::class,
 
         /*
          * Application Service Providers...
