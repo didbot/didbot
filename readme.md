@@ -10,8 +10,6 @@ Configure your .env file with a random APP_KEY and your DB credentials.
 - `cp .env.example .env`
 
 Install the application dependencies.
-- `npm install`
-- `gulp`
 - `php composer install`
 - `php artisan migrate --seed`
 - `php artisan passport:install`
